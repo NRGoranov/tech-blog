@@ -12,6 +12,11 @@ export const metadata: Metadata = {
   description: 'Your ultimate destination for technology news, tutorials, reviews, and community discussions. Stay updated with the latest in software development, AI, hardware, and more.',
   keywords: 'technology, programming, AI, software development, tutorials, reviews, tech news',
   authors: [{ name: 'TechBlog Team' }],
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
   openGraph: {
     title: 'TechBlog - Technology Insights & Tutorials',
     description: 'Your ultimate destination for technology news, tutorials, reviews, and community discussions.',
