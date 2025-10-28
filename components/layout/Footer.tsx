@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { Code2, Github, Twitter, Linkedin, Mail, Matrix } from 'lucide-react'
+import { Code2, Github, Twitter, Linkedin, Mail, Zap } from 'lucide-react'
 import { useTheme } from 'next-themes'
 import { useState, useEffect } from 'react'
 
@@ -53,7 +53,7 @@ const Footer = () => {
               <Link href="/" className="flex items-center space-x-2 mb-4">
                 <div className="w-8 h-8 bg-gradient-to-r from-primary-600 to-primary-800 dark:from-green-600 dark:to-emerald-500 rounded-lg flex items-center justify-center">
                   {mounted && theme === 'dark' ? (
-                    <Matrix className="w-5 h-5 text-white" />
+                    <Zap className="w-5 h-5 text-white" />
                   ) : (
                     <Code2 className="w-5 h-5 text-white" />
                   )}
